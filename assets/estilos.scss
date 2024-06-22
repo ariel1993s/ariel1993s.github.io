@@ -1,0 +1,28 @@
+$colorfondo: rgba(203, 219, 222, 0.581);
+$colortit: rgba(207, 206, 206, 0.511);
+
+
+
+
+.fondo {height: 85vh;
+        background-image: url("./img/fond.jpg");
+       }
+
+.animado {
+    background-color: $colortit;
+    animation: ryb 3s infinite;
+        }
+  
+  @keyframes ryb {
+    50% {
+      transform: rotate(180deg);
+    } }
+    .card:hover {
+        width: 430px;
+      }
+      .ima:hover {
+        width: 430px;
+      }
+
+      .back{background-color: $colorfondo;
+    height: 80vh;}
